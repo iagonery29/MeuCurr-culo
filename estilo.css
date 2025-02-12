@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e9e0d1;
+    color: #070001;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    padding-bottom: 1.5rem;
+}
+
+
+p {
+    padding: 0.5rem;
+}
+
+
+header {
+    background-color: #91a398;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+
+header img {
+    display: flex;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 0.5rem;
+}
+
+header a {
+    color: #070001;
+}
+
+
+header a:hover {
+    color: #e9e0d1;
+}
+
+
+nav {
+    background-color: #070001;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+nav a {
+    color: #e9e0d1;
+    padding-inline: 3.5rem;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: #91a398;
+}
+
+main {
+    margin-bottom: 5rem;
+}
+
+.Tópico {
+    padding-top: 3rem;
+}
+
+
+.Tópico h1 {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.Tópico p, .Tópico li {
+    margin-left: 10rem;
+}
+
+
+.Topo {
+    text-align: right;
+    margin-right: 5rem;
+}
+
+footer {
+    background-color: #91a398;
+    padding: 1rem;
+    color:#070001;
+    text-align: center;
+}
