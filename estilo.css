@@ -34,9 +34,9 @@ header img {
     display: flex;
     position: absolute;
     margin-top: 1rem;
-    margin-left: 8rem;
-    max-width: 10rem;
-    max-height: 10rem;
+    margin-left: 6rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border-radius: 0.5rem;
 }
 
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 main {
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 .Tópico {
@@ -93,9 +93,23 @@ main {
     margin-right: 5rem;
 }
 
+.Topo a {
+    color: #91a398;
+    text-decoration: none;
+}
+
 footer {
     background-color: #91a398;
     padding: 1rem;
     color:#070001;
     text-align: center;
+}
+
+.botao {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#tema {
+    padding: 0.5rem;
 }
