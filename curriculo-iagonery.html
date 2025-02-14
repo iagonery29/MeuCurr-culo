@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Meu histórico profissional e habilidades" >
     <link rel="stylesheet" href="estilo.css">
+    <script src="interacao.js"></script>
     <title>Currículo Iago Nery</title>
 </head>
 
@@ -16,16 +17,16 @@
         <p><b>Estado Civil:</b> Solteiro</p>
         <p><b>E-mail:</b> iagonery@gmail.com</p>
         <p><b>Telefone:</b> (83) 9 9802-5464</p>
-        <p><b>Endereço: </b><a href="https://www.google.com/maps/@-7.1512064,-34.8402738,3a,48.9y,344h,92.71t/data=!3m7!1e1!3m5!1s8PEL3iuHiZ0eZjj16kkcnw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-2.7085117795503635%26panoid%3D8PEL3iuHiZ0eZjj16kkcnw%26yaw%3D344.00413378308065!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Rua Francisco Timóteo de Souza, 577, Anatólia</p></a>        
+        <p><b>Endereço: </b> Rua Francisco Timóteo de Souza, 577, Anatólia</p>
     </header>
-    <nav>
+    <nav id="navegador">
         <a href="#Resumo">Resumo</a>
         <a href="#Objetivos">Objetivos</a>
         <a href="#Experiencia">Experiência</a>
         <a href="#Habilidades">Habilidades</a>
-        <a href="https://www.behance.net/iagonerya61e" target="_blank">Portfólio</a>
+        <a href="https://github.com/iagonery29" target="_blank">Portfólio</a>
     </nav>
-    <main>
+    <main id="principal">
         <div class="Tópico" id="Resumo">
             <h1>Resumo</h1>
             <p>Graduando do 8o período do curso de Comunicação em Mídias Digitais
@@ -73,8 +74,11 @@
             </ul>
         </div>
         <div class="Topo"><a href="#head">Início</a></div>
+        <div class="botao">
+            <button type="button" id="tema" onclick="mudarTema()">Mudar Visual</button>
+        </div>
     </main>
-    <footer>
+    <footer id="foot">
         <p>Produzido por Iago Nery Company</p>
     </footer>
 </body>
